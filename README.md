@@ -12,7 +12,7 @@ A full-featured REST API built with **Node.js**, **Express**, and **Firebase** f
 
 - Firebase Authentication (sign up, sign in, password reset, password change, sign out)
 - Configuration management (create, update, delete, list)
-- Protected routes with token-based auth
+- Protected routes with token-based auth (Bearer token)
 - Firebase Admin SDK integration (Firestore, Auth)
 - Environment-based configuration using `.env`
 
@@ -436,3 +436,10 @@ package-lock.json   # v
 package.json        # Contains project metadata, scripts, and lists dependencies
 README.md           # Project description
 ``` 
+
+
+## P.S.
+If you are going to use Postman, do not forget to set Bearer token for /api requests since they are protected
+
+## Currently deployed at
+https://codeway-case-backend-7i7z.onrender.com 
