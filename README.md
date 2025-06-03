@@ -35,9 +35,15 @@ Create a `.env` file in the codeway-case-backend directory with the following va
 PORT=3000
 NODE_ENV=development
 
+FIREBASE_TYPE=service_account
+FIREBASE_PROJECT_ID=project-id
 FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n"
-FIREBASE_CLIENT_EMAIL=your-service-account-email@project-id.iam.gserviceaccount.com
+FIREBASE_CLIENT_EMAIL=firebase-adminsdk-fbsvc@name-project-name.iam.gserviceaccount.com
 FIREBASE_CLIENT_ID=your-firebase-client-id
+FIREBASE_AUTH_URI=https://accounts.google.com/o/oauth2/auth
+FIREBASE_TOKEN_URI=https://oauth2.googleapis.com/token
+FIREBASE_AUTH_PROVIDER_CERT_URL=https://www.googleapis.com/oauth2/v1/certs
+FIREBASE_CLIENT_CERT_URL=https://www.googleapis.com/oauth2/v1/certs
 ```
 
 ## Running the Application
