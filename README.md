@@ -245,6 +245,10 @@ npm start
     "createdAt": {
         "_seconds": 1748945758,
         "_nanoseconds": 534000000
+    },
+    "lastUpdated": {
+        "_seconds": 1748945758,
+        "_nanoseconds": 534000000
     }
   },
   {
@@ -253,6 +257,10 @@ npm start
     "value": "1.2",
     "description": "New parameter 2",
     "createdAt": {
+        "_seconds": 1748945759,
+        "_nanoseconds": 534000000
+    },
+    "lastUpdated": {
         "_seconds": 1748945759,
         "_nanoseconds": 534000000
     }
@@ -283,6 +291,10 @@ npm start
     "value": "1",
     "description": "New parameter",
     "createdAt": {
+        "_seconds": 1748945758,
+        "_nanoseconds": 534000000
+    },
+    "lastUpdated": {
         "_seconds": 1748945758,
         "_nanoseconds": 534000000
     }
@@ -332,6 +344,10 @@ npm start
     "createdAt": {
         "_seconds": 1748945758,
         "_nanoseconds": 534000000
+    },
+    "lastUpdated": {
+        "_seconds": 1748945758,
+        "_nanoseconds": 534000000
     }
 }
 ```
@@ -356,7 +372,8 @@ npm start
   {
       "parameterKey": "my_param", 
       "value": "3", 
-      "description": "Updated description"
+      "description": "Updated description",
+      "lastUpdated": "2025-06-02T11:52:57.034Z"
   }
 ```
 **Success Response:**
@@ -371,6 +388,10 @@ npm start
     "createdAt": {
         "_seconds": 1748945583,
         "_nanoseconds": 614000000
+    },
+    "lastUpdated": {
+        "_seconds": 1748962398,
+        "_nanoseconds": 78000000
     }
 }
 ```
